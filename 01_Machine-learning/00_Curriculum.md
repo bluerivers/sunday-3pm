@@ -11,10 +11,18 @@
     * 머신러닝의 개념과 용어
     * Linear Regression 의 개념
     * Linear Regression cost함수 최소화
-
 * Week 2
     * 여러개의 입력(feature)의 Linear Regression
     * Logistic (Regression) Classification, Hypothesis 함수 소개, Cost 함수 소개
+* Week 3
+    * Softmax Regression (Multinomial Logistic Regression) 
+        * Multinomial 개념 소개 
+        * Cost 함수 소개 비디오 
+        * TensorFlow에서의 구현 비디오 
+    * ML의 실용과 몇가지 팁 슬라이드 
+        * 학습 rate, Overfitting, 그리고 일반화 (Regularization) 비디오 
+        * Training/Testing 데이타 셋 비디오 
+        * TensorFlow에서의 구현 (학습 rate, training/test 셋으로 성능평가) 비디오 
 
 
 ## Ideation
