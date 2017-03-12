@@ -3,5 +3,4 @@
 
 ## Contents
 
-* [Machine Learning](./blob/master/01_Machine-learning/00_Curriculum.md)
-
+* [Machine Learning](./01_Machine-learning/00_Curriculum.md)
