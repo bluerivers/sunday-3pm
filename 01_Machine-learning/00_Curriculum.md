@@ -41,7 +41,16 @@
     * 딥넷트웍 학습 시키기 (backpropagation)
     * 실습1: XOR을 위한 텐스플로우 딥넷트웍
     * 실습2: Tensor Board로 딥네트웍 들여다보기
-    
+
+
+### Week 5
+* Neural Network 2: ReLU and 초기값 정하기 (2006/2007 breakthrough)
+* XSigmoid 보다 ReLU가 더 좋아
+* Weight 초기화 잘해보자
+* Dropout 과 앙상블
+* 레고처럼 넷트웍 모듈을 마음껏 쌓아 보자
+* 실습: 딥러닝으로 MNIST 98%이상 해보기
+
 
 ### 실습 or 과제
 
