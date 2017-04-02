@@ -9,8 +9,13 @@
 * 앞으로 ML을 적용해볼 주제
 	* 부정응답
 		* 응답내용
-			* string variable을 tf가 지원?
+			* string variable, 자연어 처리를 tf가 지원?
 		* 응답시간
+* 더 봐볼만한 자료
+	* [SyntaxNet](https://cpuu.postype.com/post/166917/)
+	* [텐서플로우 설치도 했고 튜토리얼도 봤고 기초 예제도 짜봤다면 TensorFlow KR Meetup 2016](https://www.slideshare.net/carpedm20/ss-63116251)
+	* [초보자를 위한 RNNs과 LSTM(Long Short-Term Memory Units) 가이드](https://deeplearning4j.org/kr/lstm)
+	* [Feed-forward NN vs Recurrent NN](http://sanghyukchun.github.io/40/)
 
 * 다음주 공부할거
 	* Convolutional Neural Networks
