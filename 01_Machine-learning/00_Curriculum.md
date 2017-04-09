@@ -52,13 +52,26 @@
 * 실습: 딥러닝으로 MNIST 98%이상 해보기
 
 
-### 실습 or 과제
+### Week 6
 
-* https://www.datacamp.com/community/open-courses/kaggle-python-tutorial-on-machine-learning#gs.gdFOjLg
+* Convolutional Neural Networks
+    * ConvNet의 Conv 레이어 만들기
+    * ConvNet Max pooling 과 Full Network
+    * ConvNet의 활용예
+    * 실습: ConvNet을 TensorFlow로 구현하자 (MNIST 99%)
+* Recurrent Neural Network
+    * NN의 꽃 RNN 이야기
+    * 실습: TensorFlow에서 RNN 구현하기
 
-### Data classification
+### Week 7
 
-* http://www.mmds.org
+* Week 6 복습
+* [보너스] Deep Deep Network AWS 에서 GPU와 돌려보기 (powered by AWS) 실습
+* [보너스2] AWS에서 저렴하게 Spot Instance를 터미네이션 걱정없이 사용하기 (powered by AWS) 실습
+* [보너스3] Google Cloud ML을 이용해 TensorFlow 실행하기 실습 슬라이드
+* 시즌 1 종료 파티
+* 시즌 2 계획
+
 
 ## Reference
 
