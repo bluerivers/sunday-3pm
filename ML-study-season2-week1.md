@@ -1,4 +1,4 @@
-#5/21 ML 스터디 시즌 2 1주차
+# 5/21 ML 스터디 시즌 2 1주차
 
 ## 이번 주
 - [공유한 링크 정리](https://www.one-tab.com/page/O2SNFVrgS120s3l8kTLZQQ)
