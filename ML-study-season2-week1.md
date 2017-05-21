@@ -2,6 +2,14 @@
 
 ## 이번 주
 - [공유한 링크 정리](https://www.one-tab.com/page/O2SNFVrgS120s3l8kTLZQQ)
+	- https://deeplearning4j.org/opendata
+	- https://medium.com/towards-data-science/simple-and-multiple-linear-regression-in-python-c928425168f9
+	- https://www.kaggle.com/uciml/datasets
+	- https://people.sc.fsu.edu/~jburkardt/datasets/regression/regression.html
+	- http://aqibsaeed.github.io/2016-07-07-TensorflowLR/
+	- https://github.com/kmather73/NotHotdog-Classifier
+	- http://yann.lecun.com/exdb/mnist/
+	- https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721
 - why convert image to grayscale? 보통 shape만으로 분류하기 때문에, 색상 정보는 계산을 어렵게 함. but 항상 옮은 것은 아님
 - 공부의 방향은? 
 	- preprocessing을 포함한 문제 정의 전체
@@ -20,3 +28,4 @@
 - [Dataset](https://archive.ics.uci.edu/ml/datasets/Housing)
 - [Dataset desc 번역](https://datascienceschool.net/view-notebook/4b948c4d99c94213bf02bcff2ced88eb/)
 - [sklearn.datasets.load_boston Document](http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html)
+- [Median Value of Owner-Occupied Housing Units](https://www.census.gov/quickfacts/meta/long_HSG495215.htm)
