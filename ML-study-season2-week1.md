@@ -24,7 +24,7 @@
 - 아래의 예시를 보고 Linear regression을 연습해본다. 
 	- 데이터셋만 보고서 직접 설계하는 것을 추천
 	- 주택과 지역에 관련된 13개의 variables로 labeled 되어있는 주택 가격을 예측
-- [보스턴 주택 가격 예측 Blog](https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721)
+- [보스턴 주택 가격 예측 Blog](http://aqibsaeed.github.io/2016-07-07-TensorflowLR/)
 - [Dataset](https://archive.ics.uci.edu/ml/datasets/Housing)
 - [Dataset desc 번역](https://datascienceschool.net/view-notebook/4b948c4d99c94213bf02bcff2ced88eb/)
 - [sklearn.datasets.load_boston Document](http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html)
