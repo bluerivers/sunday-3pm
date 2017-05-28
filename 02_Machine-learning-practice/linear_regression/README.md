@@ -26,3 +26,13 @@
 #### brad
 - 데이터를 처리하기 위한 제반 작업들이 상당히 중요하다고 생각함. 분석을 위해서 원하는 형태로 맞추어 가는 과정이 실제 tensorflow를 돌리는 과정보다 시간이 더 소요되었음.
 - 이번 경우에는 데이터가 명확하게 분리되어 있지만, 데이터의 의미를 파악하고 분석에 사용하기까지 생각보다 많은 연습이 필요할 것이라 생각됨
+
+#### Jay
+normalize의 중요성
+- 이번 case에서는 learning rate을 매우 낮게 잡으면 발산하는 걸 막을 수 있었지만 빨리 수렴하지 않아서 문제, epoch을
+충분히 크게 했을 때 cost가 원하는 만큼까지 줄어들지도 의문
+- cost function의 gradient를 보면 각 feature만 자신의 gradient에 영향을 주는게 아니고 전체 feature가 영향을 주기 때문에
+scale이 큰 feature가 영향력이 클 수 밖에 없음 -> 따라서 normalization 해야 한다.
+- 여기서 하나 의문은 그냥 raw data 쓰는거보다는 normalize data 쓰는게 나은건 맞는거 같은데, 사실 feature 별로 영향력이
+같다고 놓는 것도 좋은 건지 모르겠음. (같은 scale에 같은 learning rate을 쓰니까)
+- GradientDescentOptimizer랑 달리 AdamOptimizer는 feature 별로 다른 learning rate을 가진다고 하는거 같은데 알아봐야됨
