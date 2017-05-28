@@ -1,7 +1,7 @@
 import numpy as np
 
 def read_dataset(file):
-	dataset = np.genfromtxt('/Users/midas/PythonProject/tensorflow/boston_house/housing.data', delimiter=',')
+	dataset = np.genfromtxt('./housing.data', delimiter=',')
 	dataset_length = len(dataset)
 	return dataset, dataset_length
 
@@ -38,10 +38,9 @@ def linear_regression(training_data, validation_data):
 		
 
 if __name__ == "__main__":
-	with open('/Users/midas/PythonProject/tensorflow/boston_house/housing.data', 'rt') as file:
-		print("read csv file..")
-		dataset, dataset_length = read_dataset(file)
-		print("read done. Total %d records loaded." % (dataset_length,))
+	print("read csv file..")
+	dataset, dataset_length = read_dataset(file)
+	print("read done. Total %d records loaded." % (dataset_length,))
 
 	print("Start sampling..(0.80)")
 	training_data, validation_data = sampling_data(dataset, dataset_length)
