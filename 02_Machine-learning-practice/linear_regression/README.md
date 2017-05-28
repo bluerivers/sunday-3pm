@@ -8,6 +8,7 @@
 #### Luca
 
 - 값에서 평균 빼고 표준 분포로 나눈게 어떻게 노멀라이즈 되는가? z-score의 동작 원리가 궁금
+- test set으로 돌렸을 때 예측값과 테스트 값의 오차의 평균이 약 22 정도 나오는데 이것이 어떤 의미가 있는가?
 
 
 ### 각자 깨달은 점
@@ -20,6 +21,7 @@
 * Normalize 는 왜 하는가?
 ** multiple variate regression 에서는 각 변수의 값의 범위가 다르고 그 크기에 따라 label(Y)에 미치는 영향이 현저히 다를 수 있기 때문에 Normalize를 해야 한다고 나와있음([참고](https://stats.stackexchange.com/questions/29781/when-conducting-multiple-regression-when-should-you-center-your-predictor-varia))
 * 진행하면서 Normalize 등 통계적 지식이 어느 정도는 있어야 한다고 느꼈음
+* W 값을 보면서 각 field 이 Y에 미치는 영향, 즉 상관관계를 분석하니 좀더 명확히 느껴졌음
 
 #### brad
 - 데이터를 처리하기 위한 제반 작업들이 상당히 중요하다고 생각함. 분석을 위해서 원하는 형태로 맞추어 가는 과정이 실제 tensorflow를 돌리는 과정보다 시간이 더 소요되었음.
