@@ -15,7 +15,7 @@
 - no content
 
 #### Jay
-- linear인 데이터(혹은 적어도 단조 증가, 단조 감소인 데이터)가 아닌 경우에도 softmax regression이 잘 동작하는가? 아닐거같다.
+- no content
 
 
 ### 각자 깨달은 점
