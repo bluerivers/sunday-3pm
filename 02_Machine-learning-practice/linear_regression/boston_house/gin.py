@@ -7,7 +7,6 @@ import matplotlib.pyplot as plt
 data = np.loadtxt('./housing.data', delimiter=',', dtype=np.float32)
 
 # 마지막 열을 label로 하고 나머지는 feature로 구분함
-# 일단 정규화는 하지 않음
 
 print(data.shape)
 features = data[:, :-1]
