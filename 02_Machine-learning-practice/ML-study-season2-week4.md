@@ -9,7 +9,13 @@
   * domain을 이해하고 목적을 갖고 분석을 한다면 clustering을 해도 문제가 없기에 상중하 또는 4~7개의 category로 묶음 (정확한 점수보단, 점수의 경향성만 봐도 된다고 생각함)
 * Regularization, Label clustering, outlier drop 등으로 70~90% 까지 정확도를 올림
 
-## 각자 느낀점
+## 차주 진행사항
+
+* 이번 주에 배운 바를 적용해서 wine quality data set 의 예측 정확도 높여보기
+* Wine quality 나 Student grade data set 중 하나를 neural net으로 구현해보기
+
+
+## 후기
 
 ### Luca
 - plot으로 각 feature의 특성을 더 깊게 생각해보는 것이 필요하다고 느낌
