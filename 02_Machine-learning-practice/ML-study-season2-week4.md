@@ -5,8 +5,8 @@
 * Wine quality 분류에서 data processing에 대한 부족함을 느끼고, 마침 optional하게 준비된 student dataset을 진행함
 * student dataset은 마침 string feature 들이 있어서, numeric feature만 다루었던 부족함을 채우기에 좋은 주제
 * 각자 해온 결과, accurray가 20%을 안정적으로 못넘겼었음
-** 이유는 label인 0~20 범위를 갖는 점수 그대로 예측을 하려 했기 때문
-** domain을 이해하고 목적을 갖고 분석을 한다면 clustering을 해도 문제가 없기에 상중하 또는 4~7개의 category로 묶음 (정확한 점수보단, 점수의 경향성만 봐도 된다고 생각함)
+  * 이유는 label인 0~20 범위를 갖는 점수 그대로 예측을 하려 했기 때문
+  * domain을 이해하고 목적을 갖고 분석을 한다면 clustering을 해도 문제가 없기에 상중하 또는 4~7개의 category로 묶음 (정확한 점수보단, 점수의 경향성만 봐도 된다고 생각함)
 * Regularization, Label clustering, outlier drop 등으로 70~90% 까지 정확도를 올림
 
 ## 각자 느낀점
