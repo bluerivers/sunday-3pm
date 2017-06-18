@@ -30,3 +30,8 @@
 - 도메인을 파악하고 내가 구하고자 하는 바를 명확히 하는 것이 문제를 해결해나가는데 중요하다는 것을 또 느꼈음
 
 ### Jay
+* wine quality나 student data나 classification 문제보다는 regression 문제에 가까운 거 같다.
+* classification으로 하려면 큰 group으로 나누는 정도로 하는 수 밖에 없는듯
+* 이 data들은 regression 관점에서 봤을 때 linear function을 따르지도 않는 거 같고, classification 관점에서 봤을 때
+linearly separable 하지도 않은 듯 (이거는 k-nearest neighbor로만 해봐서 확실하진 않음, SVM 같은걸로 될지도)
+* non-linear인 방법으로 잘 되려나
