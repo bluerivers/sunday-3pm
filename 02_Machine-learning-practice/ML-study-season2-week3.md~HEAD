@@ -27,6 +27,9 @@
 - no content
 
 ### Jay
+- no content
+
+### Jay
 - AdamOptimizer 짱짱맨
 - classification은 결과값(label)이 n차원인 learning의 special case라고 생각하면 될 거 같다.
 - xor 문제랑 비슷한 이유로 wine data의 learning 결과가 60% 초반을 넘지 못하는 거 같다.
