@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 
 # set up
 
-data = np.loadtxt('./winequality-red.csv', delimiter=';', dtype=np.float32)
-# data = np.loadtxt('./winequality-white.csv', delimiter=';', dtype=np.float32)
+data = np.loadtxt('./winequality-red.csv', delimiter=';', dtype=np.float32, skiprows=1)
+# data = np.loadtxt('./winequality-white.csv', delimiter=';', dtype=np.float32, skiprows=1)
 
 print(data.shape)
 features = data[:, :-1]
