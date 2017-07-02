@@ -2,8 +2,11 @@
 
 ## 진행사항
 deep neural net을 또 해보았다
+- poker 60%
+- mushroom 99~100%
 
 ## 차주 진행사항
+- poker 정확도 올리기 (현재 60% 정도)
 
 ## 후기
 
