@@ -21,6 +21,9 @@
 - plot으로 각 feature의 특성을 더 깊게 생각해보는 것이 필요하다고 느낌
 - 정확한 점수 예측이 굳이 ML로 해야하는 목적이 아님을 깨달음. domain data와 이것으로 얻고자 하는 목적에 대해서 명확히 하는게 중요하다고 깨달음
 - 여러 data processing 기술(?)을 이번에 많이 사용하여, 그만큼 효과를 봐서 좋았음
+- feature 간의 선형 정도를 파악하여, outlier를 제거하면 더 좋은 결과를 얻을 수 있음을 배움
+  - pandas plotting에서 scatter matrix를 참고 
+  - https://pandas.pydata.org/pandas-docs/stable/visualization.html#visualization-scatter-matrix
 
 ### Gin
 - Regularization을 적용해보니 overfitting, training 때의 accuracy와 test의 accuracy 의 차이가 나는 현상을 보정할 수 있다는 것을 봐서 좋았다.
