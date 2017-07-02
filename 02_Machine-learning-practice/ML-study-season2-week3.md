@@ -10,15 +10,15 @@
 
 * Linear Regression 관련 예제 1개씩 추가로 해보기
 * Classification 관련
-    * https://archive.ics.uci.edu/ml/datasets/Student+Performance
-    * https://archive.ics.uci.edu/ml/datasets/Wine+Quality (필수)
-    * https://www.kaggle.com/aljarah/xAPI-Edu-Data
-
+    * https://archive.ics.uci.edu/ml/datasets/Student+Performance
 
 ## 후기
 
 ### Luca
-- no content
+- 아담 옵티마이져는 좋은 것
+- classification은 딱 떨어지게 label을 구하는 것보다 grouping해서 구하는 것이 더 유의미한 경우가 있음. 상중하 정도만 판단해도 된다고 하면. 1~100의 점수를 classification 하는 것은 classification이라 하기에는 이상할 듯
+- softmax의 한계가 보임
+- 데이터가 이쁘게 되어 있어서, string을 어떻게 처리할지 student로 배울 수 있을 듯
 
 ### Gin
 - no content
