@@ -30,6 +30,10 @@ deep neural net을 또 해보았다
   * https://tensorflowkorea.gitbooks.io/tensorflow-kr/content/g3doc/tutorials/wide_and_deep/
 
 ### Gin
+* 생각 없는 복붙은 화를 초래한다. 역시나 중요한 것은 domain에 대해 이해하고 그에 맞게 데이터를 잘라서 분석하는 것이다.
+* 텐서플로우에 익숙해졌다고 생각하지만 역시나 아직은 자유자재로 쓰기엔 무리가 있다.
+* 데이터에 따라 one-hot encoding을 적용하는 것도 중요하다,
+* NN을 돌리니 슬슬 데이터를 뽑는 것이 느려지기 시작했다.
 
 ### Brad
 
