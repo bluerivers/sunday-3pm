@@ -17,6 +17,13 @@ deep neural net을 또 해보았다
   * http://goodtogreate.tistory.com/entry/GPU-TensorFlow-on-Window-10-TensorFlow-GPU%EB%B2%84%EC%A0%84-%EC%9C%88%EB%8F%84%EC%9A%B010-%EC%84%A4%EC%B9%98
   * http://jaejunyoo.blogspot.com/2017/02/start-tensorflow-gpu-window-10.html
 * 코드를 재활용하면 큰 낭패를 본다. 제대로 "코딩"을 하고 있는지 생각해야함
+* categorical value는 로지스틱 선형 회귀로 wide하게 처리하는게 보통인가?
+  * Tensorflow에서 categorical value를 위한 SparseTensors object를 지원한다. 이를 NN에서 사용할 수 있는지 궁금함
+    * https://www.tensorflow.org/api_guides/python/sparse_ops#SparseTensor
+  * https://tensorflowkorea.gitbooks.io/tensorflow-kr/content/g3doc/tutorials/wide/
+  * https://tensorflowkorea.gitbooks.io/tensorflow-kr/content/g3doc/tutorials/linear/overview.html
+* linear와 DNN을 결합하여 wide & deep도 시도해보면 재밌을 거 같다.
+  * https://tensorflowkorea.gitbooks.io/tensorflow-kr/content/g3doc/tutorials/wide_and_deep/
 
 ### Gin
 
