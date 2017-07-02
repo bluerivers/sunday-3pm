@@ -7,6 +7,7 @@ deep neural net을 또 해보았다
 
 ## 차주 진행사항
 - poker 정확도 올리기 (현재 60% 정도)
+  - 참고 : http://neuroph.sourceforge.net/tutorials/PredictingPokerhands/Predicting%20poker%20hands%20with%20neural%20networks.htm 
 
 ## 후기
 
