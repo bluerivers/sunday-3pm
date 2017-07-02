@@ -11,6 +11,10 @@ classification에 적합한 데이터로 진행
 ## 후기
 
 ### Luca
+* training 정확도는 더 낮지만 test 데이터에 대해 한개의 layer로 했을 때 보다, 42% -> 60%로 약 18% 증가한 정확도를 보였음. 이래서 NN인가 싶을 정도로 막막한 데이터에서 결과를 이끌어냄
+* 아직은 NN의 layer 구성 방법을 잘 모르겠음. layer 갯수, hidden layer matrix size, dropout 정도를 막무가내로 넣지 않고 할 수 있는 방법을 찾아야할 듯
+* dropout은 training에 딱 맞는 것을 방지해주는 효과가 있어 덜 기대하게 해주지 정확도를 끌어올리지는 않음. 과다복용 ㄴㄴ
+* tf.concat으로 logits들을 더하는 것을 시도해보았으나 NN이 아닌거 같은데 어떻게 동작하는건지 모르겠음
 
 ### Gin
 * softmax 보다는 안정적으로 결과가 나오는 편이었다. 이제 간단한 pre-processing과 regularization 등을 통해 80% 이상의 정확도를 보일 수 있게 됐다. 그 이상으로 정확도를 높일 수 있는 방법에 대해 연구해봐야겠다.
