@@ -20,7 +20,6 @@ def load_data(file_name):
 
 
 def split_features_and_labels(data):
-    last_column_index = data.shape[1]
     features = data.iloc[:, :-1]
     labels = data.iloc[:, -1:]
     return features, labels
