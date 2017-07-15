@@ -1,0 +1,353 @@
+===== hidden layer : 3, learning rate : 0.01, without dropout =====
+
+Step:     0	Loss: 1.211	Acc: 49.95%
+Step:   500	Loss: 0.442	Acc: 80.79%
+Step:  1000	Loss: 0.445	Acc: 80.52%
+Step:  1500	Loss: 0.424	Acc: 80.91%
+Step:  2000	Loss: 0.423	Acc: 80.74%
+Step:  2500	Loss: 0.421	Acc: 80.98%
+Step:  3000	Loss: 0.414	Acc: 81.02%
+Step:  3500	Loss: 0.416	Acc: 80.83%
+Step:  4000	Loss: 0.413	Acc: 80.81%
+Step:  4500	Loss: 0.939	Acc: 56.88%
+Step:  5000	Loss: 0.523	Acc: 78.79%
+(1000000,)
+Test Accuracy: 0.649261
+
+
+Step:     0	Loss: 2.493	Acc: 49.95%
+Step:   500	Loss: 0.446	Acc: 80.59%
+Step:  1000	Loss: 0.627	Acc: 74.83%
+Step:  1500	Loss: 0.433	Acc: 80.57%
+Step:  2000	Loss: 0.419	Acc: 80.96%
+Step:  2500	Loss: 0.419	Acc: 80.78%
+Step:  3000	Loss: 0.412	Acc: 80.96%
+Step:  3500	Loss: 0.415	Acc: 80.68%
+Step:  4000	Loss: 0.417	Acc: 80.59%
+Step:  4500	Loss: 0.412	Acc: 80.75%
+Step:  5000	Loss: 0.405	Acc: 81.40%
+Step:  5500	Loss: 0.404	Acc: 81.06%
+Step:  6000	Loss: 0.402	Acc: 81.30%
+Step:  6500	Loss: 0.394	Acc: 81.39%
+Step:  7000	Loss: 0.397	Acc: 81.32%
+Step:  7500	Loss: 0.397	Acc: 81.53%
+Step:  8000	Loss: 0.406	Acc: 81.02%
+Step:  8500	Loss: 0.395	Acc: 81.38%
+Step:  9000	Loss: 0.402	Acc: 81.00%
+Step:  9500	Loss: 0.391	Acc: 81.86%
+Step: 10000	Loss: 0.395	Acc: 81.18%
+(1000000,)
+Test Accuracy: 0.719927
+
+
+===== hidden layer : 3, learning rate : 0.01, hidden drop out 0.7 =====
+
+Step:     0	Loss: 1.721	Acc: 38.56%
+Step:   500	Loss: 0.547	Acc: 78.43%
+Step:  1000	Loss: 0.507	Acc: 79.29%
+Step:  1500	Loss: 0.497	Acc: 79.52%
+Step:  2000	Loss: 0.495	Acc: 79.56%
+Step:  2500	Loss: 0.494	Acc: 79.74%
+Step:  3000	Loss: 0.488	Acc: 79.57%
+Step:  3500	Loss: 0.484	Acc: 79.76%
+Step:  4000	Loss: 0.485	Acc: 79.58%
+Step:  4500	Loss: 0.485	Acc: 79.74%
+Step:  5000	Loss: 0.480	Acc: 79.84%
+(1000000,)
+Test Accuracy: 0.928921
+
+Step:     0	Loss: 2.634	Acc: 34.93%
+Step:   500	Loss: 0.669	Acc: 72.26%
+Step:  1000	Loss: 0.558	Acc: 76.87%
+Step:  1500	Loss: 0.531	Acc: 78.32%
+Step:  2000	Loss: 0.533	Acc: 77.61%
+Step:  2500	Loss: 0.516	Acc: 78.57%
+Step:  3000	Loss: 0.515	Acc: 78.38%
+Step:  3500	Loss: 0.518	Acc: 78.31%
+Step:  4000	Loss: 0.511	Acc: 78.56%
+Step:  4500	Loss: 0.512	Acc: 78.42%
+Step:  5000	Loss: 0.509	Acc: 78.65%
+(1000000,)
+Test Accuracy: 0.695983
+
+===== hidden layer : 3, learning rate : 0.001, hidden drop out 0.7 =====
+
+Step:     0	Loss: 3.464	Acc: 0.58%
+Step:   500	Loss: 0.949	Acc: 54.66%
+Step:  1000	Loss: 0.764	Acc: 67.34%
+Step:  1500	Loss: 0.706	Acc: 70.04%
+Step:  2000	Loss: 0.659	Acc: 72.34%
+Step:  2500	Loss: 0.631	Acc: 73.35%
+Step:  3000	Loss: 0.603	Acc: 75.03%
+Step:  3500	Loss: 0.585	Acc: 75.67%
+Step:  4000	Loss: 0.564	Acc: 76.31%
+Step:  4500	Loss: 0.551	Acc: 77.30%
+Step:  5000	Loss: 0.532	Acc: 77.81%
+(1000000,)
+Test Accuracy: 0.88326
+
+Step:     0	Loss: 3.519	Acc: 0.78%
+Step:   500	Loss: 0.866	Acc: 61.87%
+Step:  1000	Loss: 0.678	Acc: 71.93%
+Step:  1500	Loss: 0.612	Acc: 74.85%
+Step:  2000	Loss: 0.575	Acc: 76.49%
+Step:  2500	Loss: 0.538	Acc: 77.76%
+Step:  3000	Loss: 0.517	Acc: 78.81%
+Step:  3500	Loss: 0.511	Acc: 78.82%
+Step:  4000	Loss: 0.504	Acc: 78.89%
+Step:  4500	Loss: 0.496	Acc: 79.18%
+Step:  5000	Loss: 0.498	Acc: 79.43%
+Step:  5500	Loss: 0.490	Acc: 79.42%
+Step:  6000	Loss: 0.492	Acc: 79.16%
+Step:  6500	Loss: 0.478	Acc: 79.90%
+Step:  7000	Loss: 0.479	Acc: 79.53%
+Step:  7500	Loss: 0.481	Acc: 79.56%
+Step:  8000	Loss: 0.484	Acc: 79.35%
+Step:  8500	Loss: 0.480	Acc: 79.67%
+Step:  9000	Loss: 0.477	Acc: 79.82%
+Step:  9500	Loss: 0.468	Acc: 80.04%
+Step: 10000	Loss: 0.474	Acc: 79.94%
+(1000000,)
+Test Accuracy: 0.923708
+
+===== hidden layer : 4, learning rate : 0.001, hidden drop out 0.7 =====
+
+Step:     0	Loss: 2.962	Acc: 1.36%
+Step:   500	Loss: 0.893	Acc: 60.20%
+Step:  1000	Loss: 0.761	Acc: 66.91%
+Step:  1500	Loss: 0.704	Acc: 70.09%
+Step:  2000	Loss: 0.665	Acc: 71.49%
+Step:  2500	Loss: 0.642	Acc: 72.69%
+Step:  3000	Loss: 0.636	Acc: 72.75%
+Step:  3500	Loss: 0.625	Acc: 73.78%
+Step:  4000	Loss: 0.610	Acc: 74.07%
+Step:  4500	Loss: 0.610	Acc: 74.39%
+Step:  5000	Loss: 0.607	Acc: 74.28%
+Step:  5500	Loss: 0.605	Acc: 74.17%
+Step:  6000	Loss: 0.593	Acc: 75.21%
+Step:  6500	Loss: 0.592	Acc: 74.45%
+Step:  7000	Loss: 0.591	Acc: 75.18%
+Step:  7500	Loss: 0.582	Acc: 75.34%
+Step:  8000	Loss: 0.588	Acc: 74.82%
+Step:  8500	Loss: 0.592	Acc: 74.82%
+Step:  9000	Loss: 0.576	Acc: 75.58%
+Step:  9500	Loss: 0.584	Acc: 75.23%
+Step: 10000	Loss: 0.579	Acc: 75.08%
+(1000000,)
+Test Accuracy: 0.715634
+
+===== hidden layer : 3, learning rate : 0.001, hidden drop out 0.7 =====
+
+Step:     0	Loss: 4.799	Acc: 1.39%
+Step:   500	Loss: 0.852	Acc: 62.86%
+Step:  1000	Loss: 0.750	Acc: 68.04%
+Step:  1500	Loss: 0.711	Acc: 69.36%
+Step:  2000	Loss: 0.688	Acc: 70.04%
+Step:  2500	Loss: 0.669	Acc: 71.10%
+Step:  3000	Loss: 0.654	Acc: 71.73%
+Step:  3500	Loss: 0.648	Acc: 71.51%
+Step:  4000	Loss: 0.630	Acc: 73.05%
+Step:  4500	Loss: 0.623	Acc: 73.24%
+Step:  5000	Loss: 0.614	Acc: 73.98%
+Step:  5500	Loss: 0.595	Acc: 74.67%
+Step:  6000	Loss: 0.577	Acc: 75.47%
+Step:  6500	Loss: 0.577	Acc: 75.49%
+Step:  7000	Loss: 0.572	Acc: 75.58%
+Step:  7500	Loss: 0.571	Acc: 75.70%
+Step:  8000	Loss: 0.566	Acc: 75.87%
+Step:  8500	Loss: 0.559	Acc: 75.97%
+Step:  9000	Loss: 0.551	Acc: 76.79%
+Step:  9500	Loss: 0.548	Acc: 76.99%
+Step: 10000	Loss: 0.545	Acc: 76.78%
+(1000000,)
+Test Accuracy: 0.862806
+
+===== hidden layer : 3, neuron size : feature count + 2 to all, learning rate : 0.001, hidden drop out 0.7 =====
+
+Step:     0	Loss: 3.112	Acc: 0.44%
+Step:   500	Loss: 0.888	Acc: 60.23%
+Step:  1000	Loss: 0.723	Acc: 69.42%
+Step:  1500	Loss: 0.680	Acc: 71.47%
+Step:  2000	Loss: 0.654	Acc: 72.12%
+Step:  2500	Loss: 0.623	Acc: 73.96%
+Step:  3000	Loss: 0.594	Acc: 75.23%
+Step:  3500	Loss: 0.573	Acc: 76.11%
+Step:  4000	Loss: 0.568	Acc: 76.09%
+Step:  4500	Loss: 0.545	Acc: 76.91%
+Step:  5000	Loss: 0.542	Acc: 77.56%
+Step:  5500	Loss: 0.538	Acc: 77.31%
+Step:  6000	Loss: 0.528	Acc: 77.60%
+Step:  6500	Loss: 0.528	Acc: 77.64%
+Step:  7000	Loss: 0.515	Acc: 78.40%
+Step:  7500	Loss: 0.512	Acc: 78.58%
+Step:  8000	Loss: 0.515	Acc: 77.87%
+Step:  8500	Loss: 0.512	Acc: 78.20%
+Step:  9000	Loss: 0.511	Acc: 78.43%
+Step:  9500	Loss: 0.500	Acc: 78.87%
+Step: 10000	Loss: 0.505	Acc: 78.61%
+(1000000,)
+Test Accuracy: 0.892162
+
+Step:     0	Loss: 2.618	Acc: 11.44%
+Step:   500	Loss: 0.936	Acc: 56.47%
+Step:  1000	Loss: 0.760	Acc: 67.13%
+Step:  1500	Loss: 0.689	Acc: 70.99%
+Step:  2000	Loss: 0.640	Acc: 73.25%
+Step:  2500	Loss: 0.596	Acc: 75.53%
+Step:  3000	Loss: 0.568	Acc: 76.33%
+Step:  3500	Loss: 0.544	Acc: 77.17%
+Step:  4000	Loss: 0.534	Acc: 77.97%
+Step:  4500	Loss: 0.514	Acc: 78.43%
+Step:  5000	Loss: 0.522	Acc: 78.22%
+Step:  5500	Loss: 0.513	Acc: 78.21%
+Step:  6000	Loss: 0.508	Acc: 78.68%
+Step:  6500	Loss: 0.495	Acc: 79.36%
+Step:  7000	Loss: 0.497	Acc: 78.99%
+Step:  7500	Loss: 0.498	Acc: 79.01%
+Step:  8000	Loss: 0.488	Acc: 79.12%
+Step:  8500	Loss: 0.499	Acc: 78.95%
+Step:  9000	Loss: 0.491	Acc: 79.25%
+Step:  9500	Loss: 0.486	Acc: 79.35%
+Step: 10000	Loss: 0.492	Acc: 79.14%
+(1000000,)
+Test Accuracy: 0.882085
+
+===== hidden layer : 3, neuron size : [fc + 2, fc + 2, fc], learning rate : 0.001, hidden drop out 0.7 =====
+
+Step:     0	Loss: 3.260	Acc: 3.23%
+Step:   500	Loss: 0.855	Acc: 62.95%
+Step:  1000	Loss: 0.751	Acc: 67.74%
+Step:  1500	Loss: 0.702	Acc: 69.75%
+Step:  2000	Loss: 0.672	Acc: 71.26%
+Step:  2500	Loss: 0.641	Acc: 72.73%
+Step:  3000	Loss: 0.625	Acc: 73.61%
+Step:  3500	Loss: 0.608	Acc: 74.18%
+Step:  4000	Loss: 0.600	Acc: 74.62%
+Step:  4500	Loss: 0.595	Acc: 74.62%
+Step:  5000	Loss: 0.584	Acc: 75.45%
+Step:  5500	Loss: 0.576	Acc: 75.90%
+Step:  6000	Loss: 0.579	Acc: 75.53%
+Step:  6500	Loss: 0.569	Acc: 75.98%
+Step:  7000	Loss: 0.566	Acc: 76.13%
+Step:  7500	Loss: 0.557	Acc: 76.47%
+Step:  8000	Loss: 0.551	Acc: 76.84%
+Step:  8500	Loss: 0.557	Acc: 76.38%
+Step:  9000	Loss: 0.547	Acc: 76.97%
+Step:  9500	Loss: 0.544	Acc: 77.13%
+Step: 10000	Loss: 0.546	Acc: 76.95%
+Step: 10500	Loss: 0.540	Acc: 77.20%
+Step: 11000	Loss: 0.539	Acc: 77.21%
+Step: 11500	Loss: 0.532	Acc: 77.62%
+Step: 12000	Loss: 0.536	Acc: 77.50%
+Step: 12500	Loss: 0.530	Acc: 77.45%
+Step: 13000	Loss: 0.531	Acc: 77.59%
+Step: 13500	Loss: 0.534	Acc: 77.21%
+Step: 14000	Loss: 0.527	Acc: 77.52%
+Step: 14500	Loss: 0.525	Acc: 77.76%
+Step: 15000	Loss: 0.523	Acc: 77.70%
+(1000000,)
+Test Accuracy: 0.750818
+
+Step:     0	Loss: 2.098	Acc: 38.08%
+Step:   500	Loss: 0.957	Acc: 51.38%
+Step:  1000	Loss: 0.766	Acc: 67.40%
+Step:  1500	Loss: 0.694	Acc: 70.63%
+Step:  2000	Loss: 0.661	Acc: 71.88%
+Step:  2500	Loss: 0.635	Acc: 73.45%
+Step:  3000	Loss: 0.616	Acc: 74.31%
+Step:  3500	Loss: 0.585	Acc: 76.07%
+Step:  4000	Loss: 0.568	Acc: 76.69%
+Step:  4500	Loss: 0.550	Acc: 77.21%
+Step:  5000	Loss: 0.549	Acc: 77.28%
+Step:  5500	Loss: 0.535	Acc: 77.55%
+Step:  6000	Loss: 0.523	Acc: 77.94%
+Step:  6500	Loss: 0.519	Acc: 77.90%
+Step:  7000	Loss: 0.520	Acc: 78.05%
+(1000000,)
+Test Accuracy: 0.904423
+
+Step:     0	Loss: 4.353	Acc: 0.30%
+Step:   500	Loss: 0.911	Acc: 58.27%
+Step:  1000	Loss: 0.803	Acc: 64.47%
+Step:  1500	Loss: 0.755	Acc: 66.60%
+Step:  2000	Loss: 0.711	Acc: 69.85%
+Step:  2500	Loss: 0.670	Acc: 71.62%
+Step:  3000	Loss: 0.632	Acc: 73.59%
+Step:  3500	Loss: 0.605	Acc: 74.81%
+Step:  4000	Loss: 0.571	Acc: 76.57%
+Step:  4500	Loss: 0.542	Acc: 77.68%
+Step:  5000	Loss: 0.543	Acc: 77.49%
+Step:  5500	Loss: 0.531	Acc: 78.03%
+Step:  6000	Loss: 0.526	Acc: 78.03%
+Step:  6500	Loss: 0.516	Acc: 78.47%
+Step:  7000	Loss: 0.510	Acc: 78.54%
+Step:  7500	Loss: 0.515	Acc: 78.18%
+Step:  8000	Loss: 0.510	Acc: 78.63%
+(1000000,)
+Test Accuracy: 0.823895
+
+Step:     0	Loss: 2.508	Acc: 14.63%
+Step:   500	Loss: 0.787	Acc: 67.23%
+Step:  1000	Loss: 0.632	Acc: 74.73%
+Step:  1500	Loss: 0.581	Acc: 76.60%
+Step:  2000	Loss: 0.546	Acc: 77.47%
+Step:  2500	Loss: 0.532	Acc: 78.26%
+Step:  3000	Loss: 0.519	Acc: 78.28%
+Step:  3500	Loss: 0.496	Acc: 79.53%
+Step:  4000	Loss: 0.499	Acc: 79.20%
+Step:  4500	Loss: 0.493	Acc: 79.20%
+Step:  5000	Loss: 0.489	Acc: 79.24%
+Step:  5500	Loss: 0.482	Acc: 79.55%
+Step:  6000	Loss: 0.482	Acc: 79.64%
+Step:  6500	Loss: 0.479	Acc: 79.84%
+Step:  7000	Loss: 0.477	Acc: 79.84%
+Step:  7500	Loss: 0.480	Acc: 79.67%
+Step:  8000	Loss: 0.476	Acc: 79.87%
+Step:  8500	Loss: 0.472	Acc: 80.00%
+Step:  9000	Loss: 0.472	Acc: 79.95%
+(1000000,)
+Test Accuracy: 0.923706
+
+Step:     0	Loss: 1.704	Acc: 37.47%
+Step:   500	Loss: 0.851	Acc: 62.30%
+Step:  1000	Loss: 0.739	Acc: 67.42%
+Step:  1500	Loss: 0.674	Acc: 71.22%
+Step:  2000	Loss: 0.621	Acc: 73.46%
+Step:  2500	Loss: 0.587	Acc: 75.70%
+Step:  3000	Loss: 0.569	Acc: 76.17%
+Step:  3500	Loss: 0.561	Acc: 76.56%
+Step:  4000	Loss: 0.548	Acc: 76.86%
+Step:  4500	Loss: 0.548	Acc: 76.79%
+Step:  5000	Loss: 0.531	Acc: 77.56%
+Step:  5500	Loss: 0.526	Acc: 77.97%
+Step:  6000	Loss: 0.516	Acc: 78.74%
+Step:  6500	Loss: 0.510	Acc: 78.40%
+Step:  7000	Loss: 0.512	Acc: 78.61%
+Step:  7500	Loss: 0.513	Acc: 78.16%
+Step:  8000	Loss: 0.508	Acc: 78.29%
+Step:  8500	Loss: 0.501	Acc: 78.78%
+Step:  9000	Loss: 0.508	Acc: 78.59%
+(1000000,)
+Test Accuracy: 0.899538
+
+Step:     0	Loss: 2.781	Acc: 11.54%
+Step:   500	Loss: 0.774	Acc: 67.10%
+Step:  1000	Loss: 0.647	Acc: 73.63%
+Step:  1500	Loss: 0.581	Acc: 76.29%
+Step:  2000	Loss: 0.557	Acc: 77.17%
+Step:  2500	Loss: 0.539	Acc: 77.91%
+Step:  3000	Loss: 0.520	Acc: 78.79%
+Step:  3500	Loss: 0.513	Acc: 78.58%
+Step:  4000	Loss: 0.509	Acc: 78.87%
+Step:  4500	Loss: 0.498	Acc: 79.19%
+Step:  5000	Loss: 0.492	Acc: 79.33%
+Step:  5500	Loss: 0.490	Acc: 79.21%
+Step:  6000	Loss: 0.484	Acc: 79.30%
+Step:  6500	Loss: 0.483	Acc: 79.79%
+Step:  7000	Loss: 0.486	Acc: 79.44%
+Step:  7500	Loss: 0.481	Acc: 79.80%
+Step:  8000	Loss: 0.479	Acc: 79.55%
+Step:  8500	Loss: 0.478	Acc: 79.70%
+Step:  9000	Loss: 0.475	Acc: 80.01%
+(1000000,)
+Test Accuracy: 0.923707
