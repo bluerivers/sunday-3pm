@@ -26,6 +26,10 @@
   * https://stackoverflow.com/questions/36162180/gradient-descent-vs-adagrad-vs-momentum-in-tensorflow
   
 ### Gin
+* data set의 특성을 보고 값 자체로 training 할지 class한 데이터로 봐서 one-hot encoding을 적용할지 잘 파악해야 겠다고 생각함
+* neuron의 개수가 많아짐에 따라 점점 랩탑의 연산 속도가 한계가 오기 시작했음 (역시 장비인가!?)
+* dropout을 적용해서 overfitting을 막아야 함을 배웠음
+
 
 ### Brad
 
