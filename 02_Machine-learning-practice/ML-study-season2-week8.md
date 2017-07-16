@@ -22,5 +22,10 @@
 ### Gin
 
 ### Brad
+* Optimizer선택은 최적이라고 알려진걸 쓰는게 가장 좋은 것 같다
+* 한방에 효과적인걸 뽑아내기보다는, 하나 하나 바꿔가면서 최적해를 찾아가야 한다는걸 느끼면서 장비가 중요하다는 생각이 들었다
+* 너무 내부에 blind된 부분이 많아서 잘 알고 하려면 공부가 많이 필요한 듯 하다
 
 ### Jay
+* luca의 실험에 의하면 learning rate과 optimizer가 생각보다 큰 영향을 줌
+* batch normalization에 대해 보는 중인데 아직 인트로밖에 안읽어서 자세하게는 모르겠지만 일단 mini batch를 쓰는거는 stochastic gradient descent와 batch gradient descent의 중간을 쓰는 느낌인듯. BGD는 트레이닝 전체에 대해 계산해서 weight 조정하니까 안정적인데 느리게 수렴함. SGD는 각 example에 대해 조정하니 빠르게 수렴하지만 optimum에 도달하지 못하고 근처에서 진동하는 경우가 많음 (outliner 영향도 많이 받을테고). 그 중간정도가 mini batch 쓰는 건데 핵좋음
