@@ -19,3 +19,7 @@
 #### Brad
 
 #### Jay
+* https://www.kaggle.com/cyr0930/digit/notebook
+* 모든 Adam Optimizer가 그런건지는 모르겠지만 tensorflow에서 쓰는 건
+stochastic아니고 batch optimizer임 (batch size를 1로하면 stochastic이기 때문에 당연한거일지도)
+
