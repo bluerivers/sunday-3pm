@@ -43,3 +43,9 @@ http://timvieira.github.io/blog/post/2017/08/18/backprop-is-not-just-the-chain-r
 이것도 한번 보면 좋겠다)
 * 통계학도 좀 알아야되는데 sample의 variance 구할때 m / (m-1)하는거 뭔지 까먹음
 * 보니까 tf.layers.batch_normalization 이런게 그냥 있음
+* regularization은 weight가 작으면서도 cost를 낮게하는 weight을 찾겠다는 것.
+noise(outlier)에 의해 weight vector의 길이가 길어지면 learning에서
+weight vector의 방향을 바꾸기가 어려워짐 (local optimum에 빠지는 거 같군).
+어차피 learning이 계속되면 커질 weight은 커짐 (될놈될)
+http://neuralnetworksanddeeplearning.com/chap3.html
+* param tuning은 작은 training set 가지고 learning 해보면서 정함
