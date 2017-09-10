@@ -31,4 +31,9 @@
 
 ### Jay
 * luca의 실험에 의하면 learning rate과 optimizer가 생각보다 큰 영향을 줌
-* batch normalization에 대해 보는 중인데 아직 인트로밖에 안읽어서 자세하게는 모르겠지만 일단 mini batch를 쓰는거는 stochastic gradient descent와 batch gradient descent의 중간을 쓰는 느낌인듯. BGD는 트레이닝 전체에 대해 계산해서 weight 조정하니까 안정적인데 느리게 수렴함. SGD는 각 example에 대해 조정하니 빠르게 수렴하지만 optimum에 도달하지 못하고 근처에서 진동하는 경우가 많음 (outliner 영향도 많이 받을테고). 그 중간정도가 mini batch 쓰는 건데 핵좋음
+* batch normalization에 대해 보는 중인데 아직 인트로밖에 안읽어서 자세하게는 모르겠지만
+일단 mini batch를 쓰는거는 stochastic gradient descent와 batch gradient descent의 중간을 쓰는 느낌인듯.
+BGD는 트레이닝 전체에 대해 계산해서 weight 조정하니까 안정적인데 느리게 수렴함.
+SGD는 각 example에 대해 조정하니 빠르게 수렴하지만
+optimum에 도달하지 못하고 근처에서 진동하는 경우가 많음 (outlier 영향도 많이 받을테고).
+그 중간정도가 mini batch 쓰는 건데 핵좋음
