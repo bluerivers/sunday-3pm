@@ -7,12 +7,11 @@
 * https://www.kaggle.com/zalando-research/fashionmnist 해보기
 
 ## 차주 준비사항
-* http://hunkim.github.io/ml/ - RL lecture 3 까지 보기
-* RNN도 해야하지 않을까?
+* RNN
 
 ### 각자 깨달은 점
 
-#### Lucaㅎ
+#### Luca
 * 놀러감
 
 #### Gin
