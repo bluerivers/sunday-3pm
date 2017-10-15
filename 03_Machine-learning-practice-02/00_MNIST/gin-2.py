@@ -11,9 +11,9 @@ def load_data(file_name):
     return features, labels
 
 
-X, Y = load_data('data/train.csv')
+X, Y = load_data('data/fashion-mnist_train.csv')
 print(X.shape)
-X_test = pandas.read_csv('data/test.csv', sep=',')
+X_test, Y_test = load_data('data/fashion-mnist_test.csv')
 print(X_test.shape)
 
 nb_classes = 10
@@ -40,7 +40,7 @@ pool1 = tf.layers.max_pooling2d(inputs=conv1,
                                 pool_size=[2, 2],
                                 padding="SAME",
                                 strides=2)
-dropout1 = tf.layers.dropout(inputs=pool1, rate=0.7, training=training)
+dropout1 = tf.layers.dropout(inputs=pool1, rate=0.5, training=training)
 
 # Convolutional Layer #2 and Pooling Layer #2
 conv2 = tf.layers.conv2d(inputs=dropout1,
@@ -53,7 +53,7 @@ pool2 = tf.layers.max_pooling2d(inputs=conv2,
                                 padding="SAME",
                                 strides=2)
 dropout2 = tf.layers.dropout(inputs=pool2,
-                             rate=0.7, training=training)
+                             rate=0.5, training=training)
 
 # Convolutional Layer #3 and Pooling Layer #3
 # conv3 = tf.layers.conv2d(inputs=dropout2, filters=128, kernel_size=[3, 3],
@@ -80,7 +80,7 @@ accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 
 
 # hyper parameters
-learning_rate = 0.001
+learning_rate = 0.002
 training_epochs = 30
 batch_size = 100
 
@@ -110,6 +110,9 @@ with tf.Session() as sess:
 
     # Test model and check accuracy
     prediction = sess.run(tf.argmax(logits, 1), feed_dict={X_in: X_test, training: False})
+    print('prediction:', prediction)
+    acc_test = sess.run(accuracy, feed_dict={X_in: X_test, Y_in: Y_test, training: False})
+    print('accuracy:', acc_test)
 
-    for index in range(len(prediction)):
-        print(index + 1, ',', prediction[index], sep='')
+    # for index in range(len(prediction)):
+    #     print(index + 1, ',', prediction[index], sep='')
