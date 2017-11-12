@@ -3,7 +3,7 @@
 ## 진행사항
 
 * RNN Tensorflow 예제 이해
-
+* https://github.com/golbin/TensorFlow-Tutorials/blob/master/README.md#10---rnn 예제 이해
 
 ## 차주 준비사항
 
@@ -31,4 +31,8 @@
 
 #### Jay
 
-*
+* seq2seq 에서 decoder input에 왜 label 값을 넣어서 learning하는가? (test할 때는 decoder input이 있지도 않을텐데)
+* 일단 decoder input에 <go><pad><pad>...<pad>를 넣고 학습해도 잘 되긴함 (우리 예제가 너무 작아서 성능에 어떤 영향을 주는지 알기는 어려움)
+* decoder input 부분을 helper라고도 부르는거같고, label 대신 prediction값을 넣어주는 등 다른 방법도 사용되는거 같음
+* https://tensorflowkorea.gitbooks.io/tensorflow-kr/content/g3doc/tutorials/seq2seq/
+* https://github.com/tensorflow/nmt
