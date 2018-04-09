@@ -16,10 +16,13 @@
 * MSE와 R-square가 왜 따로 봐야하는지? 각각의 필요성에 대한 의문을 품음
 * Adjusted R-square가 필요한 이유가 feature가 증가함에 따라 R-square가 무조건 증가하거나 변하지 않기 때문이라고 함
     * 왜 그럴까 의문을 제시하였고, Jay가 Curse of Dimensionality(차원의 저주)을 알려줌
-    * http://norman3.github.io/prml/docs/chapter01/4.html
-    * http://www.visiondummy.com/2014/04/curse-dimensionality-affect-classification/
-    * https://stats.stackexchange.com/questions/99171/why-is-euclidean-distance-not-a-good-metric-in-high-dimensions
-    * https://www.reddit.com/r/statistics/comments/33bu59/why_does_r2_always_increase_when_adding_new/
+        * http://norman3.github.io/prml/docs/chapter01/4.html
+            * >그림을 잘 보면 차원이 증가할수록(D가 커질수록) e 값이 작더라도 원래 볼륨 크기와 근접하게 됨을 알 수 있다. 이걸 다른 관점에서 이야기하자면 차원이 증가할수록 전체 볼륨 크기의 대부분은 표면에 위치하게 된다는 것이다.
+            * 이를 이해하기가 어려웠는데, 차원이 커질 수록 1의 부피와 1-e의 부피차가 커지고
+            * 각 축의 데이터들이 잘 분산되어 있더라도 중간에 밀집하는 것보다 껍데기(1-e, 1의 사이)에 분포하는게 많아짐으로 대략(?) 이해함
+        * http://www.visiondummy.com/2014/04/curse-dimensionality-affect-classification/
+        * https://stats.stackexchange.com/questions/99171/why-is-euclidean-distance-not-a-good-metric-in-high-dimensions
+        * https://www.reddit.com/r/statistics/comments/33bu59/why_does_r2_always_increase_when_adding_new/        
 * Heteroscedasticity(이분산성) : non-constant variance of [residual](https://en.wikipedia.org/wiki/Residual_(numerical_analysis))
 
 ## 차주 준비사항
