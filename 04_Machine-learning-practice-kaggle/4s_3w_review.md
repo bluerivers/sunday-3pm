@@ -50,3 +50,23 @@
 
 
 #### Jay
+* 여러가지 해봄
+    * categorical variable을 one hot encode
+    * 어떤 categorical variable은 ordinal로 볼 수 있어서 값을 매김 (excelent:5, ..., bad: 1)
+    * NA(not available)값이 들어있는 경우 처리
+        * 평균값을 넣는다 (numeric), most freq value를 넣는다 (categorical)
+        * NA에 대한 flag 변수를 넣어준다. (이 flag로 neural net이 트레이닝 data를 구분해서 learning할 수 있지 않을까
+        싶어서 해봤는데 잘 되는지는 모르겠다)
+    * 다 엄청 좋아지지도 나빠지지도 않음
+* 그냥 learning rate을 적당히 잘 정해서 iteration을 많이돌리고 dropout으로 overfit을 줄여주면 얼추 잘 나옴
+(심지어 categorical variable 다 빼버려도 됨)
+* xavier initializer 쓰는게 대체로 안정적인듯
+* batch normalization은 해보려고 했는데 잘 이해하고 한게 아니라 코드만 가져다써서 맞게 했는지 모르겠음
+(일단 결과는 안좋았음)
+* curse of dimensionality는 dimension이 증가할수록 데이터가 껍질에 몰린다는게 직관적이지 않았었는데 dimension이 크면
+바깥부분의 부피가 안쪽에 비해 매우매우 커지기 때문임. uniform distribution인 경우라면 당연하고
+심지어 normal distribution 같은걸 가정해도, 밀도는 중심부분에서 가장 높겠지만 껍질이 차지하는 부피가
+(밀도를 압도할 만큼) 워낙에 크기 때문에 데이터의 대부분은 껍질에 위치할 것이다.
+중앙에 위치할 확률이 아무리 높아도 차원이 증가하면 계속 확률을 곱해야하기 때문에 그 확률이 0으로 수렴하는 것으로도
+이해할 수 있을 듯. 비슷한 말이지만 n-1개 feature에 대해 중앙에 가깝게 있어도 하나의 feature에 대해 바깥쪽에 있으면
+바깥쪽에 있는 것이다. 
