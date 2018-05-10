@@ -1,6 +1,6 @@
 # 18/4/22 ML 스터디 시즌 4, 4주 차
 
-> 참가자 : Jay, Luca, Brad, Gin
+> 참가자 : Jay, Luca, Gin
 
 ## 진행사항
 
