@@ -11,7 +11,7 @@
 
 ## 차주 준비사항
 
-* 
+*
 
 ### 각자 깨달은 점
 
@@ -32,6 +32,12 @@
   * 답은 논문 읽기
 
 #### Gin
+
+* 입력 값을 learning을 돌릴 수 있는 상태로 형태로 저장해 놓는 것이 훨씬 빠른 iteration 에 도움이 된다. ML에 있어서 이런 iteration 의 속도는 가설-검증 사이클의 핵심일 것으로 보인다.
+  * [numpy save](https://docs.scipy.org/doc/numpy/reference/generated/numpy.save.html) 를 이용하면 결과를 저장하고 load를 통해 그 데이터를 불러올 수 있다. 저장할 때 확장자로 npy 가 붙으니 참고하길!
+* doc2vec model을 만들 때 epoch을 1로 주는 실수를 했는데 오히려 예측 결과는 더 잘 나오는 것을 확인했다. train data가 결과를 예측하는데 부족하거나 epoch을 많이 돌리면 overfitting이 되는 것 아닌가 생각하게 됐다.
+* 다른 모델을 도입해서 tensorflow/keras 등을 따라하기만 하니 내 것이 되지 않았다는 생각을 하게 됐다. 천천히 한 개를 잡고 꾸준히 돌려봐야 온전히 내 것이 되지 않을까 하는 생각을 했다.
+
 
 #### Brad
 
