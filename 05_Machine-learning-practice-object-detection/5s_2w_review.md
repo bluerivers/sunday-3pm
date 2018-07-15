@@ -17,8 +17,12 @@
 
 
 #### Gin
-*
 
+* Faster RCNN의 상세내용에 대해서 이해해봤음
+    * Anchor 를 뽑는 방식과 이 앵커를 어떻게 활용하는 지 알아봤음 - grid의 중심에서 정해진 모양의 anchor(k개)를 뽑는 방식
+    * 이 Anchor가 foreground인지 background 인지 예측하고 이를 training 하는 것이 rpn 이 하는 일임
+    * 계산량을 줄이기 위한 ROI Pooling 에 대해서 이해했음
+    * 아래 Jay가 질문한 anchor box와 ground truth box는 원본 이미지 위에 있는가? feature map 위에 있는가? 는 역시 궁금한 부분임
 
 #### Brad
 *
@@ -36,6 +40,5 @@ positive, negative를 labeling해서 학습한다.
     translate invariant인가? 그래서 절대적인 위치에 상관없이 positive, negative
     sample을 같은 개수만큼 뽑아도 상관없는가?
     * anchor box와 ground truth box는 이미지 위에 있는가? feature map 위에 있는가?
-* 1 by 1 conv net은 차원을 줄이는 용도라고 볼 수도 있고 (차원을 미리
-줄여놓고 계산하는게 계산량이 훨씬 적음), 채널에서 의미를 뽑아낸다고
-볼 수도 있을 듯 (뭔가 Gin이 이런 얘기를 했는데 까먹음)
+* 1 by 1 conv net은 차원을 줄이는 용도라고 볼 수도 있고 (차원을 미리 줄여놓고 계산하는게 계산량이 훨씬 적음), 채널에서 의미를 뽑아낸다고 볼 수도 있을 듯
+    * (+) 여러 채널의 값의 조합을 가지고 여러 채널간의 의미 관계를 뽑는 것이라 볼 수 있음
