@@ -22,4 +22,5 @@
 * 
 
 #### Jay
-* 
+* resnet.py or vgg.py에 rpn과 fast rcnn classifier 부분이 들어있음
+* data_generators.py에 iou
