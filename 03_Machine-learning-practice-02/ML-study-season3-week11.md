@@ -20,3 +20,4 @@
 
 #### Jay
 * CycleGAN에서 대체 어떻게 원본 형상을 유지하는가? https://hardikbansal.github.io/CycleGANBlog에서 cyclic loss를 보라
+* GAN에서 generator가 하나의 training image 그대로만 생성하면 어떡하나? mode collapse와 연관이 있는듯 

@@ -30,13 +30,8 @@
 
 #### Jay
 * weight과 bias의 initial value가 각 feature의 평균, 분산에 영향을 줄 것이다.
-느낌적인 느낌으로는 각 layer에서의 평균, 분산도 learning의 결과로 얻어진다고 볼 수 있을 거 같은데
-random initialize가 이걸 해치지 않을까 싶다. 따라서 random으로 정하는 것보다 기존 data의
-평균, 분산을 유지하는 initial value를 주는게 좋지 않을까 생각함.
-bias_i = 0, weight_i = (1 / num of weight) 이면 reasonable 하지 않나 싶음.
-일단 mnist로는 잘 되는데 다른 data에 대해서도 잘되는지 봐야하고, 관련된 연구가 있나 살펴보면 좋을듯
-(init 값이 고정임에도 매번 결과가 조금씩 달라지는 걸로 봐선 어딘가에 randomness가 포함되어있다는건데
-아마도 AdamOptimizer 같으니 살펴봐야함)
+느낌적인 느낌으로는 각 layer에서의 평균, 분산도 learning의 결과로 얻어진다고 볼 수 있을 거 같다.
+=> Batch normalization이 이것과 연관이 있다.
 * batch normalization 보다 보니 back propagation에 대해서도 더 정확히 아는게 좋을거 같다.
 (위키피디아 reference보면 관련된거 엄청 많음,
 http://timvieira.github.io/blog/post/2017/08/18/backprop-is-not-just-the-chain-rule/
